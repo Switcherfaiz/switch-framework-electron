@@ -1,7 +1,7 @@
 {
   "name": "switch-framework-electron",
-  "version": "0.1.0",
-  "description": "Electron helpers for Switch Framework apps — child servers, IPC, splash bootstrap",
+  "version": "0.2.9",
+  "description": "Electron desktop helpers for the Switch Framework ecosystem — child servers, dynamic ports, IPC, splash bootstrap, and window controls for building Electron apps with switch-framework and switch-framework-backend",
   "author": "Switcherfaiz",
   "github": "https://github.com/Switcherfaiz/switch-framework-electron",
   "main": "./index.js",
