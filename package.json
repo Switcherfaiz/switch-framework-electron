@@ -1,0 +1,26 @@
+{
+  "name": "switch-framework-electron",
+  "version": "0.1.0",
+  "description": "Electron helpers for Switch Framework apps — child servers, IPC, splash bootstrap",
+  "author": "Switcherfaiz",
+  "github": "https://github.com/Switcherfaiz/switch-framework-electron",
+  "main": "./index.js",
+  "type": "commonjs",
+  "files": [
+    "index.js",
+    "child.js",
+    "lib/**/*.js"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "peerDependencies": {
+    "electron": ">=28"
+  },
+  "license": "MIT",
+  "keywords": [
+    "switch-framework",
+    "electron",
+    "desktop"
+  ]
+}
