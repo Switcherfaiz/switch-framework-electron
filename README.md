@@ -1,3 +1,7 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Switcherfaiz/switch-framework-electron/master/logo.svg" alt="Switch Framework" width="180" />
+</p>
+
 # switch-framework-electron
 
 Electron helpers for [Switch Framework](https://github.com/Switcherfaiz/switch-framework) desktop apps — child server forking, dynamic ports, IPC, splash bootstrap, and window controls.
