@@ -1,11 +1,17 @@
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Switcherfaiz/switch-framework-electron/master/logo.svg" alt="Switch Framework" width="180" />
+</p>
+
 # switch-framework-electron
 
 Electron helpers for [Switch Framework](https://github.com/Switcherfaiz/switch-framework) desktop apps — child server forking, dynamic ports, IPC, splash bootstrap, and window controls.
 
+Same version line as the rest of the stack: **0.3.0**.
+
 ## Install
 
 ```bash
-npm install switch-framework-electron switch-framework switch-framework-backend
+npm install switch-framework-electron switch-framework switch-framework-backend switch-framework-router switch-framework-icons
 npm install electron --save-dev
 ```
 
@@ -44,6 +50,8 @@ bootstrapElectronApp({
 
 Each **`entry`** file is a normal Node script that starts an HTTP server (via `switch-framework-backend` or raw `http.createServer`). The package assigns a free localhost port and reports it over IPC.
 
+The UI still boots from `app/_layout.js` with `RootLayout` from `switch-framework-router`. This package only owns the **desktop shell**.
+
 ## API
 
 | Export | Description |
@@ -57,8 +65,6 @@ Each **`entry`** file is a normal Node script that starts an HTTP server (via `s
 
 ## Docs
 
-[Desktop Server](https://github.com/Switcherfaiz/switch-framework-docs) · [Multiple child servers](https://github.com/Switcherfaiz/switch-framework-docs) · [Package reference](https://github.com/Switcherfaiz/switch-framework-docs)
+[Desktop Server](https://github.com/Switcherfaiz/switch-framework-docs) · [Package reference](https://github.com/Switcherfaiz/switch-framework-docs)
 
-## License
-
-MIT © Faiz Ahmad Ally (Switcherfaiz)
+MIT — same license as the rest of Switch Framework.

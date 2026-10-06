@@ -1,7 +1,7 @@
 {
   "name": "switch-framework-electron",
-  "version": "0.2.9",
-  "description": "Electron desktop helpers for the Switch Framework ecosystem — child servers, dynamic ports, IPC, splash bootstrap, and window controls for building Electron apps with switch-framework and switch-framework-backend",
+  "version": "0.3.0",
+  "description": "Electron desktop helpers for Switch Framework — child servers, dynamic ports, IPC, splash bootstrap, and window controls",
   "author": "Switcherfaiz",
   "github": "https://github.com/Switcherfaiz/switch-framework-electron",
   "main": "./index.js",
@@ -9,18 +9,21 @@
   "files": [
     "index.js",
     "child.js",
-    "lib/**/*.js"
+    "lib/**/*.js",
+    "logo.svg"
   ],
   "engines": {
     "node": ">=18"
   },
   "peerDependencies": {
-    "electron": ">=28"
+    "electron": ">=28",
+    "switch-framework-backend": ">=0.3.0"
   },
   "license": "MIT",
   "keywords": [
     "switch-framework",
     "electron",
-    "desktop"
+    "desktop",
+    "switch-framework-electron"
   ]
 }
